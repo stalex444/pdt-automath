@@ -1,7 +1,7 @@
 # PDT-AutoMath: Automated Mathematical Discovery
 ## *Derive — Discover — Name*
 
-**Pisot Dimensional Theory** | Stephanie Alexander · 2026
+**Pisot Dimensional Theory** | Stephanie Alexander · Baryonix Corp. · 2026
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
@@ -54,6 +54,10 @@ PDT uses the two members **straddling** the boundary — where classical physics
 
 ## Usage
 
+**Run in Google Colab — no installation needed:**
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stalex444/pdt-automath/blob/main/notebooks/PDT_AutoMath.ipynb)
+
 ```bash
 # Install dependencies
 pip install sympy numpy
@@ -61,11 +65,9 @@ pip install sympy numpy
 # Run all 10 branches
 python PDT_AutoMath.py
 
-# Run a single branch
-python PDT_AutoMath.py --branch 2
+# Run a single branch — set BRANCH = 2 in the CONFIG block at the top
+python PDT_AutoMath.py
 ```
-
-**Or paste directly into Google Colab** — no installation needed.
 
 ---
 
@@ -127,8 +129,8 @@ axiom norm_lock : norm (rho * Q) = -1
 
 ## Related Repositories
 
-- [ratio-unit-norm](https://github.com/baryonix/ratio-unit-norm) — PARI/GP proof of N(ρQ)=−1
-- [pdt-exclusion-test](https://github.com/baryonix/pdt-exclusion-test) — 3,106-pair uniqueness scan
+- [golden-ratio-unit-norm](https://github.com/stalex444/golden-ratio-unit-norm) — PARI/GP proof of N(ρQ)=−1
+- [dimensional-origin-Newton](https://github.com/stalex444/dimensional-origin-Newton) — derivation of Newton's constant from the Pisot boundary
 
 ## Citation
 
@@ -139,7 +141,7 @@ axiom norm_lock : norm (rho * Q) = -1
   year      = {2026},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://github.com/baryonix/pdt-automath}
+  url       = {https://github.com/stalex444/pdt-automath}
 }
 ```
 
