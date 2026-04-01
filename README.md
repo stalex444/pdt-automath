@@ -1,7 +1,7 @@
 # PDT-AutoMath: Automated Mathematical Discovery
 ## *Derive — Discover — Name*
 
-**Pisot Dimensional Theory** | Stephanie Alexander · Baryonix Corp. · 2026
+**Pisot Dimensional Theory** | Stephanie Alexander · 2026
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
