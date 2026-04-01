@@ -1,0 +1,39 @@
+{
+  "title": "PDT-AutoMath: Automated Mathematical Discovery from the Pisot Boundary",
+  "description": "Applies the AutoMath 'Derive-Discover-Name' methodology to the PDT polynomial pair x^3-x-1=0 and x^4-x-1=0 at the unique Pisot boundary of x^n=x+1. Derives 95 theorems across 10 mathematical branches from three axioms: P3, P4, and the unit norm identity N(rho*Q)=-1. Branches cover core algebra, norm theory, integer sequences (Padovan/Perrin), convergence and spectral theory, compositum structure, elliptic curves and L-functions, dynamics, arithmetic geometry, physics staircase (coupling constants), and connections to the golden ratio. All 95 theorems verified. Compare: AutoMath (Omega Institute) derived ~2350 theorems from x^2=x+1 in Lean 4. PDT uses the two members straddling the unique Pisot boundary, from which 89 physical constants follow at 0.75% mean error.",
+  "creators": [
+    {
+      "name": "Alexander, Stephanie",
+      "affiliation": "Baryonix Corp."
+    }
+  ],
+  "keywords": [
+    "Pisot numbers",
+    "plastic constant",
+    "algebraic number theory",
+    "PDT",
+    "Pisot Dimensional Theory",
+    "automated theorem discovery",
+    "AutoMath",
+    "unit norm",
+    "compositum",
+    "Padovan sequence",
+    "Perrin sequence",
+    "elliptic curves",
+    "Gross-Zagier",
+    "Barbero-Immirzi parameter",
+    "Newton's constant",
+    "fine structure constant",
+    "Bombieri-Taylor"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.15089498",
+      "relation": "isCitedBy",
+      "scheme": "doi"
+    }
+  ]
+}

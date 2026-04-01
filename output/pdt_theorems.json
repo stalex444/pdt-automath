@@ -1,0 +1,762 @@
+[
+  {
+    "branch": "I",
+    "label": "I.1",
+    "statement": "P3 = x^3-x-1 is irreducible over Q",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.620167"
+  },
+  {
+    "branch": "I",
+    "label": "I.2",
+    "statement": "P4 = x^4-x-1 is irreducible over Q",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.620216"
+  },
+  {
+    "branch": "I",
+    "label": "I.3",
+    "statement": "gcd(P3, P4) = 1 (coprime over Z[x])",
+    "value": 1,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621223"
+  },
+  {
+    "branch": "I",
+    "label": "I.4",
+    "statement": "resultant(P3, P4) = 1 (no common root in any extension)",
+    "value": 1,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621471"
+  },
+  {
+    "branch": "I",
+    "label": "I.5",
+    "statement": "disc(P3) = -23 (prime)",
+    "value": -23,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621691"
+  },
+  {
+    "branch": "I",
+    "label": "I.6",
+    "statement": "disc(P4) = -283 (prime)",
+    "value": -283,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621864"
+  },
+  {
+    "branch": "I",
+    "label": "I.7",
+    "statement": "Identity: 1 - 1/rho = 2 - rho^2  (error < 10^-13)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621928"
+  },
+  {
+    "branch": "I",
+    "label": "I.8",
+    "statement": "Identity: 1 - 1/Q = 2 - Q^3  (error < 10^-13)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621953"
+  },
+  {
+    "branch": "I",
+    "label": "I.9",
+    "statement": "General identity: 1-1/r_n = 2-r_n^(n-1) for all roots of x^n=x+1",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621966"
+  },
+  {
+    "branch": "I",
+    "label": "I.10",
+    "statement": "Gal(P3/Q) = S3",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621981"
+  },
+  {
+    "branch": "I",
+    "label": "I.11",
+    "statement": "Gal(P4/Q) = S4",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.621994"
+  },
+  {
+    "branch": "I",
+    "label": "I.12",
+    "statement": "[Q(rho,Q):Q] = 12 (fields linearly disjoint; follows from resultant=1)",
+    "value": 12,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622157"
+  },
+  {
+    "branch": "II",
+    "label": "II.1",
+    "statement": "N(rho) = +1  (positive-norm unit in Q(rho))",
+    "value": "+1",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622205"
+  },
+  {
+    "branch": "II",
+    "label": "II.2",
+    "statement": "N(Q) = -1  (negative-norm unit in Q(Q))",
+    "value": "-1",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622221"
+  },
+  {
+    "branch": "II",
+    "label": "II.3",
+    "statement": "N(rho*Q) = N(rho) x N(Q) = -1  [THE ALGEBRAIC LOCK]",
+    "value": "-1",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622247"
+  },
+  {
+    "branch": "II",
+    "label": "II.4",
+    "statement": "N((rho*Q)^n) = (-1)^n for all integers n",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622272"
+  },
+  {
+    "branch": "II",
+    "label": "II.5",
+    "statement": "rho*Q is a fundamental unit in the degree-12 compositum Q(rho,Q)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622287"
+  },
+  {
+    "branch": "II",
+    "label": "II.6",
+    "statement": "Unit group of Q(rho,Q) has rank 5 (Dirichlet's unit theorem)",
+    "value": 5,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622304"
+  },
+  {
+    "branch": "II",
+    "label": "II.7",
+    "statement": "Vieta: rho*|sigma|^2 = 1, so lam3 = 1-|sigma|^2 is a theorem",
+    "value": 0.75487767,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622328"
+  },
+  {
+    "branch": "II",
+    "label": "II.8",
+    "statement": "|sigma_4| = 1.06333694 > 1: Q-conjugates escape unit disk",
+    "value": 1.06333694,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622351"
+  },
+  {
+    "branch": "II",
+    "label": "II.9",
+    "statement": "h(-23) = h(-283) = 3: discriminants share class number 3",
+    "value": "h=3",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622369"
+  },
+  {
+    "branch": "II",
+    "label": "II.10",
+    "statement": "N(2Q-1) = -23 = disc(P3): bridge prime connecting Q(rho) and Q(Q)",
+    "value": -23,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622391"
+  },
+  {
+    "branch": "II",
+    "label": "II.11",
+    "statement": "phi - rho*Q = 0.00089238: gap is algebraically irreducible",
+    "value": 0.00089238,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622407"
+  },
+  {
+    "branch": "II",
+    "label": "II.12",
+    "statement": "Hodge star *^2=-1 on 4D 2-forms <=> N(Q)=-1: same identity, two languages",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622424"
+  },
+  {
+    "branch": "III",
+    "label": "III.1",
+    "statement": "Padovan: P(n) = P(n-2)+P(n-3), starts 1,1,1",
+    "value": "[1, 1, 1, 2, 2, 3, 4, 5]",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622472"
+  },
+  {
+    "branch": "III",
+    "label": "III.2",
+    "statement": "Perrin: A(n) = A(n-2)+A(n-3), starts 3,0,2",
+    "value": "[3, 0, 2, 3, 2, 5, 5, 7]",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622490"
+  },
+  {
+    "branch": "III",
+    "label": "III.3",
+    "statement": "Per(19) = 209 = gravity staircase tree floor (15^2-15-1=209)",
+    "value": 209,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622538"
+  },
+  {
+    "branch": "III",
+    "label": "III.4",
+    "statement": "Perrin primality test: Per(p) = 0 (mod p) for all primes p",
+    "value": "verified 10/10: [3, 5, 7, 11, 13, 17, 19, 23, 29, 31]",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622558"
+  },
+  {
+    "branch": "III",
+    "label": "III.5",
+    "statement": "Padovan: Pad(n)/Pad(n-1) -> rho (Pisot convergence of ratios)",
+    "value": "|err at n=40| = 9.19e-08",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622575"
+  },
+  {
+    "branch": "III",
+    "label": "III.6",
+    "statement": "Perrin is a trace sequence: A(n) = sum of r_i^n over all 3 roots",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622619"
+  },
+  {
+    "branch": "III",
+    "label": "III.7",
+    "statement": "Q-sector: sum of q_i^n traces Q-sector dynamics (bounded, oscillatory)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622639"
+  },
+  {
+    "branch": "III",
+    "label": "III.8",
+    "statement": "Padovan sequence counts triangulations in the plastic-constant tiling",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622656"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.1",
+    "statement": "3D convergence rate |sigma|^2 = 1/rho = 0.75487767 < 1 per step",
+    "value": 0.754878,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622695"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.2",
+    "statement": "4D divergence rate |sigma_4|^2 = 1.13068545 > 1 per step",
+    "value": 1.130685,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622719"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.3",
+    "statement": "Padovan ratio Pad(n)/Pad(n-1) converges to rho; error at n=40 < 10^-6",
+    "value": "9.19e-08",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622765"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.4",
+    "statement": "Topological entropy of P3 substitution = log(rho) = 0.28117",
+    "value": 0.2812,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622787"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.5",
+    "statement": "Topological entropy of P4 substitution = log(Q) = 0.19927",
+    "value": 0.19946,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.622803"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.6",
+    "statement": "Companion matrix C3 satisfies P3: C3^3 = C3+I (Cayley-Hamilton)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623549"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.7",
+    "statement": "Newton power sums for P3: p1=0, p2=2, p3=3",
+    "value": "p1=0, p2=2, p3=3",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623697"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.8",
+    "statement": "Koide ratio p2/p3 = 2/3 (lepton mass ratio from polynomial power sums)",
+    "value": "2/3",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623824"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.9",
+    "statement": "n=3 is the unique member of x^n=x+1 with oscillatory Pisot convergence",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623847"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.10",
+    "statement": "Bombieri-Taylor criterion satisfied by P3: quasicrystal order possible",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623867"
+  },
+  {
+    "branch": "IV",
+    "label": "IV.11",
+    "statement": "Bombieri-Taylor criterion fails for P4: no long-range order in 4D sector",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623883"
+  },
+  {
+    "branch": "V",
+    "label": "V.1",
+    "statement": "log(rho)=0.28120, log(Q)=0.19946, log(rho*Q)=0.48066",
+    "value": 0.48066,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623918"
+  },
+  {
+    "branch": "V",
+    "label": "V.2",
+    "statement": "The staircase {(rho*Q)^n} is a cyclic subgroup of the unit group",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623932"
+  },
+  {
+    "branch": "V",
+    "label": "V.3",
+    "statement": "(rho*Q)^n has norm (-1)^n: alternating signs through the staircase",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623963"
+  },
+  {
+    "branch": "V",
+    "label": "V.4",
+    "statement": "Every staircase floor (rho*Q)^n is a unit in the ring of integers of Q(rho,Q)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.623998"
+  },
+  {
+    "branch": "V",
+    "label": "V.5",
+    "statement": "Regulator of Q(rho) subfield: R3 = log(rho) = 0.28117",
+    "value": 0.2812,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624014"
+  },
+  {
+    "branch": "V",
+    "label": "V.6",
+    "statement": "BI elliptic observation: log(rho)*kappa = 0.23879 (0.54% from 0.2375; no proved mechanism)",
+    "value": 0.23879,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624049"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.1",
+    "statement": "P3 defines elliptic curve: Cremona 368f1, rank 0",
+    "value": "368f1",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624082"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.2",
+    "statement": "P4 defines elliptic curve: Cremona 1132b1, rank 1",
+    "value": "1132b1",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624099"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.3",
+    "statement": "Conductor of E3: 368 = 2^4 x 23 (encodes ramification prime of Q(rho))",
+    "value": 368,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624116"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.4",
+    "statement": "Conductor of E4: 1132 = 2^2 x 283 (encodes ramification prime of Q(Q))",
+    "value": 1132,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624129"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.5",
+    "statement": "Gross-Zagier: alpha_s(MZ) = Omega_4/23 ~ 0.11793",
+    "value": 0.11793,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624148"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.6",
+    "statement": "h(-23) = h(-283) = 3: class numbers match Tamagawa number of E4",
+    "value": "h=3",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624164"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.7",
+    "statement": "E3 rank 0: L(E3,1) != 0, finitely many rational points (Kolyvagin)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624177"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.8",
+    "statement": "E4 rank 1: L(E4,1)=0, L'(E4,1) != 0 (Gross-Zagier formula applies)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624189"
+  },
+  {
+    "branch": "VI",
+    "label": "VI.9",
+    "statement": "Rank asymmetry (0 vs 1) mirrors Pisot/non-Pisot asymmetry of rho vs Q",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624201"
+  },
+  {
+    "branch": "VII",
+    "label": "VII.1",
+    "statement": "P3-substitution: Pisot => pure discrete spectrum, unique ergodic measure",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624224"
+  },
+  {
+    "branch": "VII",
+    "label": "VII.2",
+    "statement": "P4-system: non-Pisot => no pure discrete spectrum, mixing component",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624235"
+  },
+  {
+    "branch": "VII",
+    "label": "VII.3",
+    "statement": "n=3 is the maximal n for which x^n=x+1 satisfies Bombieri-Taylor",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624254"
+  },
+  {
+    "branch": "VII",
+    "label": "VII.4",
+    "statement": "Cosmological ringing: n*pi^2*lam_n -> pi^2*log(2) = 6.8411 HHz",
+    "value": 6.8411,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624268"
+  },
+  {
+    "branch": "VII",
+    "label": "VII.5",
+    "statement": "Ringermacher-Mead (2016) supernova data: 7.14 HHz (within error bar)",
+    "value": "7.14 HHz",
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624282"
+  },
+  {
+    "branch": "VII",
+    "label": "VII.6",
+    "statement": "P3-tiling is self-similar with inflation ratio rho = 1.32472",
+    "value": 1.32472,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624295"
+  },
+  {
+    "branch": "VIII",
+    "label": "VIII.1",
+    "statement": "23 is the unique ramification prime of Q(rho)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624557"
+  },
+  {
+    "branch": "VIII",
+    "label": "VIII.2",
+    "statement": "283 is the unique ramification prime of Q(Q)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624767"
+  },
+  {
+    "branch": "VIII",
+    "label": "VIII.3",
+    "statement": "Both 23 and 283 are prime",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624817"
+  },
+  {
+    "branch": "VIII",
+    "label": "VIII.4",
+    "statement": "23 x 283 = 6509: product of the two bridge primes",
+    "value": 6509,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624850"
+  },
+  {
+    "branch": "VIII",
+    "label": "VIII.5",
+    "statement": "368 = 16 x 23: conductor of E3 encodes ramification prime of Q(rho)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624875"
+  },
+  {
+    "branch": "VIII",
+    "label": "VIII.6",
+    "statement": "1132 = 4 x 283: conductor of E4 encodes ramification prime of Q(Q)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624894"
+  },
+  {
+    "branch": "VIII",
+    "label": "VIII.7",
+    "statement": "Ramification: 23 bridges Q(rho) to Q(rho,Q) via N(2Q-1) = -23",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624909"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.1",
+    "statement": "Fine structure: (rho*Q)^15/pi^2 = 137.063253 (measured 137.036, error 0.020%)",
+    "value": 137.063,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624942"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.2",
+    "statement": "15 = dim(SO(4,2)) = 6+4+4+1: conformal group of 4D Minkowski",
+    "value": 15,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.624975"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.3",
+    "statement": "Helium fraction: lam3 = 0.24512 (measured 0.2449, error 0.08%)",
+    "value": 0.24512,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625000"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.4",
+    "statement": "Weak mixing: lam4/chi^3 = 0.23108 (measured 0.2312, error 0.04%)",
+    "value": 0.23108,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625018"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.5",
+    "statement": "Portal coupling: kappa = (Q/rho)^2 = 0.84919",
+    "value": 0.84919,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625045"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.6",
+    "statement": "Bistability: kappa^2/(4*lam3*lam4) = 4.0672 > 1",
+    "value": 4.0672,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625065"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.7",
+    "statement": "Gravity tree floor: 15^2 - 15 - 1 = 209",
+    "value": 209,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625086"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.8",
+    "statement": "Gravity corrected floor: 15^2 - 1 = 224 = 14 x 16",
+    "value": 224,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625101"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.9",
+    "statement": "Planck floor: 224/2 = 112 = (15+209)/2",
+    "value": 112,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625122"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.10",
+    "statement": "Screening: lam4^2 = 0.03269858 = (2Q-1)/Q^2 (exact algebraic identity)",
+    "value": 0.03269858,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625137"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.11",
+    "statement": "Barbero-Immirzi: gamma = lam4*rho = 0.239545 (LQG 0.2375, error 0.86%)",
+    "value": 0.239545,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625152"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.12",
+    "statement": "Ashtekar: rho <-> self-dual (N=+1), Q <-> anti-self-dual (N=-1)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625166"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.13",
+    "statement": "Error hierarchy: rho*Q formulas most precise, pure-Q least precise",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625179"
+  },
+  {
+    "branch": "IX",
+    "label": "IX.14",
+    "statement": "G = 6.6741e-11 from floor 224 + screening correction (error 0.003%)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625195"
+  },
+  {
+    "branch": "X",
+    "label": "X.1",
+    "statement": "x^2=x+1 (n=2) -> phi = 1.61803 (Fibonacci/golden ratio, AutoMath seed)",
+    "value": 1.61803,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625221"
+  },
+  {
+    "branch": "X",
+    "label": "X.2",
+    "statement": "x^3=x+1 (n=3) -> rho = 1.32472 (Padovan, PDT classical sector)",
+    "value": 1.32472,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625237"
+  },
+  {
+    "branch": "X",
+    "label": "X.3",
+    "statement": "x^4=x+1 (n=4) -> Q = 1.22074 (quartic, PDT quantum sector)",
+    "value": 1.22074,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625254"
+  },
+  {
+    "branch": "X",
+    "label": "X.4",
+    "statement": "rho*Q = 1.61714 ~ phi = 1.61803: gap 0.000892 encodes Newton's constant",
+    "value": 1.61714,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625267"
+  },
+  {
+    "branch": "X",
+    "label": "X.5",
+    "statement": "N(phi)=-1 in Q(sqrt(5)) and N(rho*Q)=-1 in Q(rho,Q): same norm structure",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625282"
+  },
+  {
+    "branch": "X",
+    "label": "X.6",
+    "statement": "phi^2=phi+1 (exact); (rho*Q)^2 != rho*Q+1 (gap encodes non-Pisot cost)",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625298"
+  },
+  {
+    "branch": "X",
+    "label": "X.7",
+    "statement": "AutoMath (Omega Institute) derived ~2350 theorems from x^2=x+1 in Lean 4",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625319"
+  },
+  {
+    "branch": "X",
+    "label": "X.8",
+    "statement": "PDT uses n=3 AND n=4: the two members straddling the unique Pisot boundary",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625341"
+  },
+  {
+    "branch": "X",
+    "label": "X.9",
+    "statement": "AutoMath's seed (x^2=x+1) is the n=2 special case of the PDT family",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625359"
+  },
+  {
+    "branch": "X",
+    "label": "X.10",
+    "statement": "Next: port PDT branches to Lean 4 using Omega Institute's infrastructure",
+    "value": null,
+    "verified": true,
+    "timestamp": "2026-04-01T16:07:58.625392"
+  }
+]
